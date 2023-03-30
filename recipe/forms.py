@@ -26,3 +26,4 @@ class RecipeForm(forms.ModelForm):
             'cuisine_types': 'Cuisine Type',
             'calories': 'Calories'
         }
+        
