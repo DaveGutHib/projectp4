@@ -6,6 +6,12 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Recipe
 from .forms import RecipeForm
 
+class Recipes(ListView):
+    """ View list of recipes """
+    template_name = 'recipes/recipes.html'
+    model = Recipe
+    context_object_name = 'recipes'
+
 class Index(TemplateView):
     template_name = 'recipe/index.html'
 
