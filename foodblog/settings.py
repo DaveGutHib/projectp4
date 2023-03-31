@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'recipe',
+    'crispy_forms',
+    'crispy_bootstrap5',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -79,6 +81,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
 
 ROOT_URLCONF = 'foodblog.urls'
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')

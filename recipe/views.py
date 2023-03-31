@@ -1,6 +1,6 @@
-from django.views.generic import TemplateView, ListView
-from django.views.generic import CreateView
+from django.views.generic import CreateView, TemplateView, ListView
 
+#  Checks user in logged in before allowing recipe creation
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Recipe
