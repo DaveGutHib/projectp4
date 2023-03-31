@@ -8,7 +8,7 @@ from .forms import RecipeForm
 
 class Recipes(ListView):
     """ View list of recipes """
-    template_name = 'recipes/recipes.html'
+    template_name = 'recipe/recipes.html'
     model = Recipe
     context_object_name = 'recipes'
 

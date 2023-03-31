@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('djrichtextfield/', include('djrichtextfield.urls')),
-    path('', include('recipe.urls')),
+    # path('', include('recipe.urls')),
     path('recipe/', include('recipe.urls'))
     ]
