@@ -1,0 +1,8 @@
+Collecting django-crispy-forms
+  Using cached django_crispy_forms-2.0-py3-none-any.whl (31 kB)
+Requirement already satisfied: django>=3.2 in /workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages (from django-crispy-forms) (3.2.18)
+Requirement already satisfied: asgiref<4,>=3.3.2 in /workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages (from django>=3.2->django-crispy-forms) (3.6.0)
+Requirement already satisfied: pytz in /workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages (from django>=3.2->django-crispy-forms) (2022.7.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages (from django>=3.2->django-crispy-forms) (0.4.3)
+Installing collected packages: django-crispy-forms
+Successfully installed django-crispy-forms-2.0
